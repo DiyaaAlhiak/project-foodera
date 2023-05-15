@@ -24,7 +24,7 @@ nav #lastNav{
 }
 nav #lastNav:hover{
     background-color: transparent;
-    color: #ab3550 !important;
+    color: #ab3550 !;
     transition: .2s ease-in-out;
 
 }

@@ -1,0 +1,80 @@
+.numbers{
+    background-color: #a82d49;
+    padding: 25px 0; 
+    max-width: 100%;
+    height: auto;
+    text-align: center;
+    overflow: hidden;
+
+}
+.numbers .row{
+    margin:10px  0px;
+}
+.numbers h2{
+    font-size: 50px;
+    font-weight: bold;
+    margin: 10px 0;
+    color: #fff;
+    font-family:'tajwal' ;
+} 
+.numbers h6{
+    text-transform: uppercase;
+    color: #fff;
+    font-family:'tajwal' ;
+font-weight: bold;
+letter-spacing: 1px;
+}
+
+.prode{
+    background-color : transparent;
+    padding: 25px 0; 
+    max-width: 100%;
+    height: auto;
+    overflow: hidden; 
+    margin-top:60px;
+}
+.prode img{
+    max-width: 100%;
+    border-radius: 10px;
+}
+.prode h2{
+    font-size: 35px;
+    width: 80%;
+    font-weight: bold;
+    margin: 10px 0;
+    color: #a82d49;
+    font-family:'Tajwal' ; 
+ line-height: 4rem;
+}
+.prode p{
+  font-size: 16px;
+  line-height: 28px;
+  color: #333;  
+  font-family:'Tajwal' ; 
+  margin-top: 20;
+}
+.prode button {
+ background-color: #a82d49;
+ border: 1px solid #a82d49;
+ box-sizing: border-box;
+ width: 140px;  
+ height: 40px; 
+ text-align: center;
+ margin-top: 20px;
+ transition: .2s ease ;
+}
+.prode button a {
+   display: block;
+   color: #fff;
+   font-family:'Tajwal' ; 
+   text-decoration: none !important;
+   text-transform: uppercase;
+   font-weight: bold;
+}
+.prode button:hover  a{
+    color:#a82d49 ;
+  
+}
+.prode button:hover {
+    background-color: #fff;
+}
