@@ -25,7 +25,8 @@ font-weight: bold;
 letter-spacing: 1px;
 }
 
-.prode{
+.prode,
+.ingredients{
     background-color : transparent;
     padding: 25px 0; 
     max-width: 100%;
@@ -33,11 +34,14 @@ letter-spacing: 1px;
     overflow: hidden; 
     margin-top:60px;
 }
-.prode img{
+.prode img
+{
     max-width: 100%;
     border-radius: 10px;
 }
-.prode h2{
+.prode h2,
+.ingredients h2,
+.paralex h2{
     font-size: 35px;
     width: 80%;
     font-weight: bold;
@@ -46,14 +50,17 @@ letter-spacing: 1px;
     font-family:'Tajwal' ; 
  line-height: 4rem;
 }
-.prode p{
+.prode p,
+.ingredients p,
+.paralex p{
   font-size: 16px;
   line-height: 28px;
   color: #333;  
   font-family:'Tajwal' ; 
   margin-top: 20;
 }
-.prode button {
+.prode button,
+.ingredients button{
  background-color: #a82d49;
  border: 1px solid #a82d49;
  box-sizing: border-box;
@@ -63,7 +70,8 @@ letter-spacing: 1px;
  margin-top: 20px;
  transition: .2s ease ;
 }
-.prode button a {
+.prode button a ,
+.ingredients button a {
    display: block;
    color: #fff;
    font-family:'Tajwal' ; 
@@ -71,10 +79,49 @@ letter-spacing: 1px;
    text-transform: uppercase;
    font-weight: bold;
 }
-.prode button:hover  a{
+.prode button:hover  a,
+.ingredients button:hover{
     color:#a82d49 ;
   
 }
-.prode button:hover {
+.prode button:hover,
+.ingredients button:hover {
     background-color: #fff;
+}
+
+.ingredients ul{
+    padding: 0;
+}
+
+.ingredients ul li{
+   list-style-type: square;
+   font-family: 'Tajawal';
+   color: #333; 
+   margin-top: 10px;
+}
+.ingredients img{
+    max-width: 100%;
+    border-radius: 10px;
+}
+.paralex{
+    background: url(../../img/1.jpg) center no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+    padding: 30px 0;
+    text-align: center;
+}
+.paralex .row{
+    margin: 50px 0;
+}
+.paralex h2{
+    width: 100%;
+    margin: 20px 0;line-height: 32px;
+}
+.paralex a{
+   color: #a82d49;
+   font-size: 20px;
+   margin: 20px 0;
+   font-family: 'Tajawal';
+   text-decoration: none !important;
 }
